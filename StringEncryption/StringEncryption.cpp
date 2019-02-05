@@ -69,7 +69,7 @@ void startEncryptDecrypt()
 
 		encryptOrDecrypt(msgInput, keyInput, encryptDecrypt); // Encrypt or Decrypt string based on what the user wants
 
-		string outputMsg = encryptDecrypt < 1 ? "\n >> Encrypted message is: " : "\n >> Decrypted message is: ";
+		string outputMsg = encryptDecrypt < 1 ? "\n >> Encrypted message is: " : "\n >> Decrypted message is: "; // Output a encrypted or decrypted message based on user preference
 
 		cout << outputMsg << msgInput << endl;
 	}
